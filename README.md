@@ -1,16 +1,15 @@
 # Simple_REST_API (Now JWT protected)
-Simple rest api made with PHP (Laravel framework)
+Simple JTW protected REST api combining two different APIs in to one (IMDB open api & Openlibrary api)
 
 ### tech stack
-Visual studio code 1.36.1
-PHP 7.3.7
-Laravel Framework 5.8.29
-Composer 1.8.6
-GuzzleHttp 6.x
+Visual studio code 1.36.1  
+PHP 7.3.7  
+Laravel Framework 5.8.29  
+Composer 1.8.6  
+GuzzleHttp 6.x  
 
-#### Simple JTW protected api combining two different APIs in to one (IMDB open api & Openlibrary api)
 
-##### Using /getBook or or /getMovie endpoints without token in header results in:
+### Using /getBook or or /getMovie endpoints without token in header results in:
 ```
 {
     "status": "Authorization Token not found"
@@ -19,7 +18,7 @@ GuzzleHttp 6.x
 
 ```
 
-##### Registering user via /register endpoint returns created user details and the token:
+### Registering user via /register endpoint returns created user details and the token:
 ![alt text](https://i.imgur.com/IE6Jwr3.png)
 ```
 {
