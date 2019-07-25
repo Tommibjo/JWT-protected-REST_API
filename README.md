@@ -9,12 +9,14 @@ Composer 1.8.6
 GuzzleHttp 6.x  
 
 
+
 ### Sending HTTP GET to /getBook or /getMovie endpoints without token in header results in:
 ```
 {
     "status": "Authorization Token not found"
 }
 ```
+
 
 ### Sending HTTP GET to /getMovie endpoint with title, year & version parameters & token in header returns:
 ![alt text](https://i.imgur.com/pDPdsTb.png)
@@ -52,6 +54,7 @@ GuzzleHttp 6.x
     "Response": "True"
 }
 ```
+
 
 ### Sending HTTP GET to /getBook with ISBN parameter & token in the header returns:
 ![alt text](https://i.imgur.com/t23vafg.png)
@@ -101,6 +104,7 @@ GuzzleHttp 6.x
 }
 ```
 
+
 ### Registering user via /register endpoint returns created user details and the token:
 ![alt text](https://i.imgur.com/IE6Jwr3.png)
 ```
@@ -115,6 +119,8 @@ GuzzleHttp 6.x
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9yZWdpc3RlciIsImlhdCI6MTU2NDA3Nzk5MiwiZXhwIjoxNTY0MDgxNTkyLCJuYmYiOjE1NjQwNzc5OTIsImp0aSI6IkxWMEhqZjlFWFhtNmRZNFAiLCJzdWIiOjIsInBydiI6IjAyMWY4MzkyY2RhODZmY2EyMjQ5YTI4YWQwOWI5ZWI3MjEyYzVhNTgifQ.rLwG25kmuuNs4yKKG1-AbqCRuPHy6n4Qhl3HAtecpvk"
 }
 ```
+
+
 ### Logging in via /login endpoint returns the toke to use:
 ```
 ![alt text](https://i.imgur.com/OoMc6JP.png)
