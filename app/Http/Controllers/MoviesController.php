@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace RestApi\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Services\MoviesService;
+use RestApi\Http\Services\MoviesService;
 
 class MoviesController extends Controller
 {

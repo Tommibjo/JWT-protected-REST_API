@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Services;
+namespace RestApi\Http\Services;
 
 use GuzzleHttp\Client;
 

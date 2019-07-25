@@ -11,5 +11,3 @@
 |
 */
 
-Route::get('/getMovie', 'MoviesController@getMovie');
-Route::get('/getBook', 'BooksController@getBook');
