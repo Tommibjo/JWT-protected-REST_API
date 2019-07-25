@@ -7,17 +7,19 @@ PHP 7.3.7
 Laravel Framework 5.8.29  
 Composer 1.8.6  
 GuzzleHttp 6.x  
-
-
+  
+  
+  
 ## JWT Authentication endpoints
-
+  
 ### Sending HTTP GET to /getBook or /getMovie endpoints without token in header results in:
 ```
 {
     "status": "Authorization Token not found"
 }
 ```
-
+  
+  
 ### Registering user via /register endpoint returns created user details and the token:
 ![alt text](https://i.imgur.com/IE6Jwr3.png)
 ```
@@ -32,8 +34,8 @@ GuzzleHttp 6.x
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9yZWdpc3RlciIsImlhdCI6MTU2NDA3Nzk5MiwiZXhwIjoxNTY0MDgxNTkyLCJuYmYiOjE1NjQwNzc5OTIsImp0aSI6IkxWMEhqZjlFWFhtNmRZNFAiLCJzdWIiOjIsInBydiI6IjAyMWY4MzkyY2RhODZmY2EyMjQ5YTI4YWQwOWI5ZWI3MjEyYzVhNTgifQ.rLwG25kmuuNs4yKKG1-AbqCRuPHy6n4Qhl3HAtecpvk"
 }
 ```
-
-
+  
+  
 ### Logging in via /login endpoint returns the toke to use:
 
 ![alt text](https://i.imgur.com/OoMc6JP.png)
@@ -42,7 +44,9 @@ GuzzleHttp 6.x
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2NDA4MDA4OCwiZXhwIjoxNTY0MDgzNjg4LCJuYmYiOjE1NjQwODAwODgsImp0aSI6InZLbTkwdjA4ak9oZEdoczIiLCJzdWIiOjIsInBydiI6IjAyMWY4MzkyY2RhODZmY2EyMjQ5YTI4YWQwOWI5ZWI3MjEyYzVhNTgifQ.IzMSaUeS6Al7DTH_BmFDKFM70n3fuvEteztWcSElZ6Y"
 }
 ```
-
+  
+  
+  
 ## REST Api end points
 
 ### Sending HTTP GET to /getMovie endpoint with title, year & version parameters & token in header returns:
